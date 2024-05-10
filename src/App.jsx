@@ -18,6 +18,7 @@ import Features from "./containers/feature/Features";
 import Possibility from "./containers/possibility/Possibility";
 import CTA from "./components/cta/CTA";
 import Blog from "./containers/blog/Blog";
+import Footer from "./containers/footer/Footer";
 const App = () => (
   <div className="App">
     <div className="gradient__bg">
@@ -30,6 +31,7 @@ const App = () => (
     <Possibility />
     <CTA />
     <Blog />
+    <Footer />
     {/* <WhatGPT3 /> */}
     {/* <Brand />
     <WhatGPT3 />
